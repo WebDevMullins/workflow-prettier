@@ -1,0 +1,14 @@
+{
+	"name": "workflow-prettier",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"prettier:format": "prettier --write \"**/*.{ts,tsx,js,md,mdx,css,yaml}\"",
+		"prettier:check:ci": "prettier --check \"**/*.{ts,tsx,js,md,mdx,css,yaml}\""
+	},
+	"prettier": "@webdevmullins/prettier-config",
+	"devDependencies": {
+		"@webdevmullins/prettier-config": "^0.0.1",
+		"prettier": "^3.2.4"
+	}
+}

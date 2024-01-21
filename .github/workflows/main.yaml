@@ -7,7 +7,7 @@ on:
 jobs:
   prettier:
     name: Prettier
-    
+
     runs-on: ubuntu-latest
 
     permissions: write-all
@@ -18,7 +18,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.PAT }}
-          
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
